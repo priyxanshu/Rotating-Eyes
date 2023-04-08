@@ -1,6 +1,11 @@
 body {
   background: linear-gradient(90deg, rgb(98, 105, 137), rgb(57, 57, 158));
 }
+.eyes {
+  display: flex;
+  margin: 100px;
+}
+
 
 .eye {
   width: 300px;
@@ -8,8 +13,7 @@ body {
   background-color: aliceblue;
   border-radius: 50%;
   display: inline-block;
-  margin-top: 200px;
-  margin-left: 80px;
+  margin: 50px;
 }
 .left-eye {
   margin-left: 400px;
@@ -26,6 +30,7 @@ body {
   border-radius: 50%;
   margin-top: 28%;
   box-shadow: 3px 3px rgba(145, 118, 118, 0.5);
+  position: relative;
 }
 
 .right_side-inside-eye {
@@ -43,11 +48,11 @@ body {
   /* -webkit-animation: circle 3s linear infinite; */
   animation: circle 3s linear infinite;
 }
-.left-left-dot {
-  left: 29.8%;
-  top: 46%;
+.left-left_dot {
+  left: 40%;
+  top: 41%;
 }
-.right-left-dot {
+.right-left_dot {
   left: 54.8%;
   top: 46%;
 }
