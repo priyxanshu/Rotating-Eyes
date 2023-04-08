@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(90deg, rgb(98, 105, 137), rgb(57, 57, 158));
+}
+
+.eye {
+  width: 300px;
+  height: 300px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 80px;
+}
+.left-eye {
+  margin-left: 400px;
+}
+.inside-eye {
+  display: flex;
+  flex-direction: row;
+}
+.left_side-inside-eye,
+.right_side-inside-eye {
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 28%;
+  box-shadow: 3px 3px rgba(145, 118, 118, 0.5);
+}
+
+.right_side-inside-eye {
+  position: relative;
+  right: -40px;
+}
+.black-dot {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  top: 40%;
+  left: 40%;
+  position: absolute;
+  /* -webkit-animation: circle 3s linear infinite; */
+  animation: circle 3s linear infinite;
+}
+.left-left-dot {
+  left: 29.8%;
+  top: 46%;
+}
+.right-left-dot {
+  left: 54.8%;
+  top: 46%;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(-50px);
+  }
+  100% {
+    transform: rotate(360deg) translate(-50px);
+  }
+}
